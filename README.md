@@ -130,7 +130,7 @@ The intuitive navigation and clear information prevent user frustration, and pre
     - A user writes many reviews for the bookings they have completed.
     - A user, as a host, receives many reviews from guests.
     - As a host, a user receives many payments from guests.
-      
+
 2. **Properties** :
    - A property is owned by one user.
    - A property can be booked many times by different users.
@@ -156,4 +156,26 @@ The intuitive navigation and clear information prevent user frustration, and pre
    - Payment is directed to the user who owns the property.
    - Payment is linked to the start_date and end_date of the duration of stay it covers.
    
-  
+  ## Feature Breakdown
+  ### 1. API Documentation
+ - **OpenAPI Standard**: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
+ - **Django REST Framework**: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
+GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
+### 2. User Authentication
+ - **Endpoints:** /users/, /users/{user_id}/
+ - **Features**: Register new users, authenticate, and manage user profiles.
+### 3. Property Management
+ - **Endpoints**: /properties/, /properties/{property_id}/
+ - **Features**: Create, update, retrieve, and delete property listings.
+### 4. Booking System
+ - **Endpoints**: /bookings/, /bookings/{booking_id}/
+ - **Features**: Make, update, and manage bookings, including check-in and check-out details.
+### 5. Payment Processing
+ - **Endpoints**: /payments/
+ - **Features**: Handle payment transactions related to bookings.
+### 6. Review System
+ - **Endpoints**: /reviews/, /reviews/{review_id}/
+ - **Features**: Post and manage reviews for properties.
+### 7. Database Optimizations
+ - **Indexing**: Implement indexes for fast retrieval of frequently accessed data.
+ - **Caching**: Use caching strategies to reduce database load and improve performance.
