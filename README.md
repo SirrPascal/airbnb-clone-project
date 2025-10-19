@@ -187,3 +187,19 @@ GraphQL: Offers a flexible and efficient query mechanism for interacting with th
 ## Importance of security in the key areas of the project
 - Users provide sensitive information like names, emails, and phone numbers that need to be  protected to prevent identity theft and fraud.
 - Payments need to be protected to prevent financial losses to the owners and the users, which is essential to maintain credibility and trust with the application.
+
+## CI/CD Pipeline
+A CI/CD pipeline is a series of automated steps that move your codebase from a developer's machine to the production environment/server.
+It consists of **Continuous Integration (CI)**, where code is frequently merged and tested, and **Continuous Delivery (CD)**, which automates the deployment of the changes to a production environment.
+### Importance
+1. Automated tests catch bugs on every change, leading to a more stable application.
+2. Deploying small, more frequent changes is less risky, which leads to easier troubleshooting issues.
+3. Increased developer productivity as developers can focus on writing code instead of getting slowed down with manual deployment tasks.
+4. Automation speeds up the delivery of new features.
+   ### Common tools
+ - **Jenkins**:  An open source automation server with a large plugin ecosystem that is widely used for build, test, and deploy automation.
+ - **Docker**: packages applications into lightweight, portable containers.
+ - **Terraform**: Cloud-agnostic tool for automating infrastructure provisioning.
+ - **GitHub Actions**: Built-in CI/CD automation within GitHub using YAML workflows.
+ - **Kubernetes**: manages and scales containerized applications automatically.
+  
