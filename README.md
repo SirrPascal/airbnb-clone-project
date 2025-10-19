@@ -10,9 +10,9 @@ This project is a full-stack clone of the popular accommodation booking platform
 6. Building the wireframes and prototypes of the app.
 
 ## Tech Stack
-**Frontend**: HTML, CSS, JAVASCRIPT (REACT or similar framework).
-**Version Control**: Git and GitHub.
-**Design Tools**: Figma for UI/UX design
+- **Frontend**: HTML, CSS, JAVASCRIPT (REACT or similar framework).
+- **Version Control**: Git and GitHub.
+- **Design Tools**: Figma for UI/UX design
 
 ## UI/UX Design Planning
 ### Design Goals
