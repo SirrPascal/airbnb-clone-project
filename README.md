@@ -179,3 +179,11 @@ GraphQL: Offers a flexible and efficient query mechanism for interacting with th
 ### 7. Database Optimizations
  - **Indexing**: Implement indexes for fast retrieval of frequently accessed data.
  - **Caching**: Use caching strategies to reduce database load and improve performance.
+## API Security
+-**Authentication**: The Process of verifying the identity of a client or user trying to access your API.
+- **Authorization**: The process determines what permissions and specific actions the user is permitted to perform.
+- **Rate Limiting**: Restricts the number of API requests a user can make within a specified period. 
+
+## Importance of security in the key areas of the project
+- Users provide sensitive information like names, emails, and phone numbers that need to be  protected to prevent identity theft and fraud.
+- Payments need to be protected to prevent financial losses to the owners and the users, which is essential to maintain credibility and trust with the application.
