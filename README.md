@@ -123,4 +123,37 @@ The intuitive navigation and clear information prevent user frustration, and pre
 - **Docker:** Containerization tool for consistent development and deployment environments.
 - **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
 
+## Database Design
+1. **Users**:
+    - A user can own many different Properties.
+    - A user can make many bookings as a guest.
+    - A user writes many reviews for the bookings they have completed.
+    - A user, as a host, receives many reviews from guests.
+    - As a host, a user receives many payments from guests.
+      
+2. **Properties** :
+   - A property is owned by one user.
+   - A property can be booked many times by different users.
+   - A property can get many reviews over time from its various bookings.
+   - A property generates many payments for its bookings.
+   - A property is booked by many Users(Guests).
+3. **Bookings** :
+     - A booking is made by exactly one guest (User).
+     - A booking is always for exactly one Property.
+     - Each booking has one corresponding payment record.
+     - A booking can have one review written about it.
+     - A booking creates an indirect link between the guest user and the property owner user.
+5. **Reviews** :
+    - A review is always about a single, specific Booking.
+    - A review is given by the user who made the booking.
+    - A review gives feedback on a specific property.
+    - Review is indirectly linked to the user who owns the property.
+    - Review is for a stay that was secured by a specific payment.
+5. **Payments** :
+   - A payment is made for one booking.
+   - Payment secures a reservation at a specific property through booking
+   - Payment is linked to one user (the user who paid for the property that was booked).
+   - Payment is directed to the user who owns the property.
+   - Payment is linked to the start_date and end_date of the duration of stay it covers.
+   
   
