@@ -1,6 +1,7 @@
 # airbnb-clone-project
 This project is a full-stack clone of the popular accommodation booking platform AirBnB. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings. The project will cover frontend development, backend APIs, database design, and deployment.
 
+# Frontend
 ## Project goals
 1. Translate the Figma mockups for the primary pages into functional web pages.
 2. Implement a fully responsive layout that provides seamless user experiences on all devices.
@@ -43,16 +44,16 @@ The intuitive navigation and clear information prevent user frustration, and pre
 
 ## Figma Design Specifications
 ### Color Styles:
-**Primary**: #FF5A5F
-**Secondary**: #008489
-**Background**: #FFFFFF
-**Text**: #222222
-**Secondary Text**: #717171
+- **Primary**: #FF5A5F
+- **Secondary**: #008489
+- **Background**: #FFFFFF
+- **Text**: #222222
+- **Secondary Text**: #717171
 
 ## Typography:
-**Primary Font**: Circular, Medium (500), 16px
-**Headings**: Circular, Bold (700), 24px-32px
-**Secondary Text**: Circular, Book (400), 14px
+- **Primary Font**: Circular, Medium (500), 16px
+- **Headings**: Circular, Bold (700), 24px-32px
+- **Secondary Text**: Circular, Book (400), 14px
 
 ## Importance of identifying design properties of a mock-up design
 - The consistency allows you to create a style guide, creating a professional, cohesive user experience. It also reinforces the brand's visual identity.
@@ -77,7 +78,7 @@ The intuitive navigation and clear information prevent user frustration, and pre
 - Logo
 - Search bar
 - User navigation
-- Responsive menu**
+- Responsive menu
 
  **2. Property Card**
 - Property image
